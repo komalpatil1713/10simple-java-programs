@@ -8,6 +8,8 @@ public class fibonacci {
 	{
 		int n,sum=0,a=0,b=1;
 		
+		//taking input from user
+		
 		System.out.println("enter nth value:");
 		
 		Scanner sc = new Scanner(System.in);
@@ -16,10 +18,12 @@ public class fibonacci {
 		
 		System.out.println("febonacci series: ");
 	 
-	    
 		while(sum<=n) {
+		
 		System.out.println(""+sum);
-        
+                
+		//swapping
+		
 		a=b;
 		b=sum;
 		sum=a+b;
